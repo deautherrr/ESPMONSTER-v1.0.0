@@ -1,7 +1,7 @@
 # ESP-MONSTER v1.0.0
 
 ## Собранное устройство
-![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/EspMonster.png)
+![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/EspMonster(1).png)
 
 ## Функционал
 | RF                          | WiFi                          | IR                          |
@@ -26,7 +26,7 @@
 | Резистор 10 Ом     | 1 шт.      | [10 Ohm Resistor](https://aliexpress.ru/item/1005009177180559.html?sku_id=12000048205104363&spm=a2g2w.productlist.search_results.10.133b4e5026aVX7) |
 
 ## Схема устройства
-![Схема устройства](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/scheme.png)
+![Схема устройства](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/scheme(1).png)
 
 ## Пины устройства
 | CC1101 | SD Card | Button | OLED | IR |
