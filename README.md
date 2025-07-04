@@ -1,8 +1,7 @@
 # ESP-MONSTER v1.0.0
 
 ## Собранное устройство
-![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0
-/raw/main/imagess/EspMonster(1).png)
+![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/EspMonster.png)
 
 ## Функционал
 | RF                          | WiFi                          | IR                          |
@@ -27,7 +26,7 @@
 | Резистор 10 Ом     | 1 шт.      | [10 Ohm Resistor](https://aliexpress.ru/item/1005009177180559.html?sku_id=12000048205104363&spm=a2g2w.productlist.search_results.10.133b4e5026aVX7) |
 
 ## Схема устройства
-![Схема устройства](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/scheme.png)
+![Схема устройства](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/scheme.png)
 
 ## Пины устройства
 | CC1101 | SD Card | Button | OLED | IR |
@@ -41,7 +40,7 @@
 
 ## Требования к SD-карте
 - SD-карты от Kingston и SanDisk (2–32 ГБ) работают идеально, некоторые другие могут не определяться.  
-  ![Пример SD-карт](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo1.png)
+  ![Пример SD-карт](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo1.png)
 - SD-карта **должна** быть отформатирована в FAT32.
 - **НЕ ИСПОЛЬЗУЙТЕ УСТРОЙСТВО БЕЗ SD-КАРТЫ! SD-КАРТА ОБЯЗАТЕЛЬНА.**
 - Не используйте файлы `.sub` и `.ir` с более чем 800 строками. Поддержка больших файлов будет добавлена в будущих обновлениях.
@@ -51,23 +50,23 @@
 - `BOOT LOGO`
 - `EvilPortals/EvilPortalPassword`
 
-![Обязательные папки](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo6.png)
+![Обязательные папки](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo6.png)
 
 ## Установка кастомного загрузочного экрана
 1. Выберите изображение в формате PNG или JPEG.
 2. Измените размер изображения до 128x64 пикселей. Сделать это можно [здесь](https://www.iloveimg.com/ru/resize-image).
 3. Скачайте [LCD Image Converter](https://sourceforge.net/projects/lcd-image-converter/), откройте его и выберите `File > Open` для загрузки вашего изображения 128x64.  
-   ![Открытие файла в LCD Image Converter](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo2.png)
+   ![Открытие файла в LCD Image Converter](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo2.png)
 4. Перейдите в `Options > Conversion`, установите:
    - **Preset**: Monochrome
    - **Prepare > Type**: Monochrome
    - **Image > Block size**: 8-bit  
-   ![Настройки Conversion](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo3.png)  
-   ![Дополнительные настройки](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo4.png)
+   ![Настройки Conversion](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo3.png)  
+   ![Дополнительные настройки](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo4.png)
 5. Нажмите кнопку **Show Preview** в левом нижнем углу и скопируйте все цифры.  
-   ![Предпросмотр](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo5.png)
+   ![Предпросмотр](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo5.png)
 6. Вставьте эти цифры в `.txt` файл и поместите его в папку `BOOT LOGO` на SD-карте ESP-Monster.  
-   ![Пример .txt файла](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo7.png)
+   ![Пример .txt файла](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo7.png)
 
 - **Примечание**: В папке `BOOT LOGO` должен быть только один `.txt` файл с данными изображения.
 - В папке `GOTOVIE LOGO` есть 8 готовых сконвертированных изображений.
@@ -89,17 +88,17 @@
 
 ## Прошивка устройства, если сайт не работает
 1. Откройте в браузере [web.esphome.io](https://web.esphome.io).  
-   ![Сайт ESPHome](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo8.png)
+   ![Сайт ESPHome](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo8.png)
 2. Подключите ESP32 к компьютеру:
    - Удерживайте кнопку **Boot** на ESP32.
    - Удерживая Boot, подключите USB-кабель.
    - Нажмите кнопку **Reset** один раз, удерживая Boot, затем отпустите обе кнопки.
    - ESP32 готова к прошивке.
 3. На сайте нажмите кнопку **Connect**.  
-   ![Кнопка Connect](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo9.png)
+   ![Кнопка Connect](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo9.png)
 4. Выберите порт, к которому подключена ESP32.  
-   ![Выбор порта](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo10.png)
+   ![Выбор порта](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo10.png)
 5. Нажмите **INSTALL**, выберите `.bin` файл прошивки ESP Monster v1.0.0 и нажмите **INSTALL**.  
-   ![Установка прошивки](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo11.png)
+   ![Установка прошивки](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo11.png)
 6. Дождитесь завершения загрузки и нажмите кнопку **Reset** на ESP32.  
-   ![Сброс после прошивки](https://github.com/deautherrr/ESPMONSTER1/raw/main/imagess/photo12.png)
+   ![Сброс после прошивки](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/photo12.png)
