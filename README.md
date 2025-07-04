@@ -1,7 +1,7 @@
 # ESP-MONSTER v1.0.0
 
 ## Собранное устройство
-![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/EspMonster (1).png)
+![EspMonster](https://github.com/deautherrr/ESPMONSTER-v1.0.0/raw/main/imagess/EspMonster.png)
 
 ## Функционал
 | RF                          | WiFi                          | IR                          |
