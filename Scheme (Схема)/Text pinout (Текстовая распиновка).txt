@@ -1,0 +1,9 @@
+ESP MONSTER V1.0.0
+
+сс1101:            Sd Card:         Button:         Oled:        IR:  
+MOSI = 13          CS 23            OK 17           SDA 4        D2
+MISO = 12          MOSI 21          RIGHT 5         SCL 15
+SCK  = 14          MISO 19          LEFT 18
+CSN  = 25          CLK 22           BACK 33
+GDO0 = 16
+GDO2 = 32
