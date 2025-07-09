@@ -1,3 +1,6 @@
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
 README.md export-ignore
 imagess/ export-ignore
 .gitattributes export-ignore
